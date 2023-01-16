@@ -8,15 +8,15 @@
     <title>Remake Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors V2</h1>
+    <h1 id="title">Rock Paper Scissors V2</h1>
     <div id="mainMenu">
-        <div class="user-banner hidden" id="playerDetails">
+        <div class="user-banner" id="player1">
             <h2>Player 1</h2>
             <h3>Wins: </h3>
         </div>
-        <div id="modeDetailsSection" >
+        <div class="mode-details-section" id="modeDetails">
             <h2>Choose A Game Mode</h2>
-            <div id="modeSelection">
+            <div class="mode-selection">
                 <button class="mode" id="classicMode">
                     <h4>Classic Mode</h4>
                     <p>Play the OG rock paper scissors</p>
@@ -35,7 +35,11 @@
                 </button>
             </div>
         </div>
-        <div class="user-banner hidden" id="cpuDetails">
+        <!-- <div class="classic-section">
+            <h1>Classic Layout</h1>
+    
+        </div> -->
+        <div class="user-banner" id="cpu">
             <h2>CPU</h2>
             <h3>Wins: </h3>
         </div>
