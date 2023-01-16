@@ -2,11 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Remake Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors V2</h1>
+    <div id="mainMenu">
+        <div class="user-banner hidden" id="playerDetails">
+            <h2>Player 1</h2>
+            <h3>Wins: </h3>
+        </div>
+        <div id="modeDetailsSection" >
+            <h2>Choose A Game Mode</h2>
+            <div id="modeSelection">
+                <div class="mode" id="classicMode">
+                    <h4>Classic Mode</h4>
+                    <p>Play the OG rock paper scissors</p>
+                    <p>Rock > Scissors</p>
+                    <p>Scissors > Paper</p>
+                    <p>Paper > Rock</p>
+                </div>
+                <div class="mode" id="kirboMode">
+                    <h4>Kirbo Mode</h4>
+                    <p>Play as Kirbo to Destroy Evil</p>
+                    <p>Hammer > Rock & Sword</p>
+                    <p>Sword > Paper & Scissor</p>
+                    <p>Scissor > Hammer & Paper</p>
+                    <p>Paper > Hammer & Rock</p>
+                    <p>Rock > Sword & Scissor</p>
+                </div>
+            </div>
+        </div>
+        <div class="user-banner hidden" id="cpuDetails">
+            <h2>CPU</h2>
+            <h3>Wins: </h3>
+        </div>
+    </div>
 </body>
 </html>
