@@ -61,3 +61,21 @@ p {
   transform: scale(1.075);
   transition: 0.2s ease-in;
 }
+
+.classic-section{
+    display: flex;
+    width: 67vw;
+    justify-content: space-evenly;
+}
+
+.classic-options {
+    background-color: pink;
+    height: 24vh;
+    width: 20vw;
+    border-radius: 129px;
+}
+
+.iconImages {
+    width: 19vh;
+    height: 13vw;
+}
